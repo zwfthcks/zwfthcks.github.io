@@ -2,24 +2,24 @@
   {
     "versions": "*",
       "offsets": {
-            "climbing": [0x40, 'uint32'],
-            "speed": [0x1c, 'uint32'],
-            "distance": [0x10, 'uint32'],
-            "time": [0x44, 'uint32'],
-            "cadence_uHz": [0x28, 'uint32'], 
-            "heartrate": [0x30, 'uint32'],
-            "power": [0x34, 'uint32'],
-            "player": [0x00, 'uint32'],
-            "x": [0x68, 'float'],
-            "y": [0x80, 'float'], 
-            "altitude": [0x6c, 'float'],
-            "watching": [0x70, 'uint32'],
-            "world": [0xf0, 'uint32'],
-            "work": [ 0x64, 'uint32' ]  
+            "climbing": [0x40, "uint32"],
+            "speed": [0x1c, "uint32"],
+            "distance": [0x10, uint32"],
+            "time": [0x44, "uint32"],
+            "cadence_uHz": [0x28, "uint32"], 
+            "heartrate": [0x30, "uint32"],
+            "power": [0x34, "uint32"],
+            "player": [0x00, "uint32"],
+            "x": [0x68, "float"],
+            "y": [0x80, "float"], 
+            "altitude": [0x6c, "float"],
+            "watching": [0x70, "uint32"],
+            "world": [0xf0, "uint32"],
+            "work": [ 0x64, "uint32" ]  
         },
         "signature": {
-            "start": '1E 00 00 00 00 00 00 00 00 00 00 00',
-            "end": '00 00 00 00',
+            "start": "1E 00 00 00 00 00 00 00 00 00 00 00",
+            "end": "00 00 00 00",
             "addressOffset": 12
         }
     }
